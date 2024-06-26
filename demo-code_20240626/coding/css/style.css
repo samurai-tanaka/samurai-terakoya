@@ -1,0 +1,36 @@
+body {
+  color: #24292E;
+  font-size: 14px;
+}
+
+img {
+  width: 100%;
+}
+
+.l-inner {
+  width: 858px;
+  max-width: 90%;
+  margin: auto;
+}
+
+.p-header {
+  margin-top: 120px;
+  margin-bottom: 122px;
+}
+
+.p-header__wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.p-header__nav {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.p-header__navWrap {
+  display: flex;
+  gap: 30px;
+}
