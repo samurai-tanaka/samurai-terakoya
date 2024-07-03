@@ -1,6 +1,7 @@
 body {
   color: #24292E;
   font-size: 14px;
+  line-height: 1.5278;
 }
 
 img {
@@ -33,4 +34,30 @@ img {
 .p-header__navWrap {
   display: flex;
   gap: 30px;
+}
+
+.p-mv {
+  margin-bottom: 80px;
+}
+
+.p-ttl {
+  text-align: center;
+  font-weight: 600;
+  font-size: 24px;
+  margin-bottom: 65px;
+}
+
+.p-about {
+  margin-bottom: 130px;
+}
+
+.p-about__name,
+.p-about__address {
+  margin-bottom: 30px;
+}
+
+.p-works__gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 23px 30px;
 }
